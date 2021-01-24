@@ -39,8 +39,44 @@ function Animaciones () {
         .11111111ff11111111111111111111.
         ..1111111111111111111111111111..
         `)
+    Correr.addAnimationFrame(img`
+        ..1111111111111111111111111111..
+        .1111111111111ffffffffffff11111.
+        1111111111111fffffffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fff1fffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fffffffffffffff1111
+        1111111111111fffffff111111111111
+        1111111111111fffffff111111111111
+        1111111111111fffffffffffff111111
+        1111111111111fffffff111111111111
+        1111111111111fffffff111111111111
+        1111111111111fffffff111111111111
+        1111111111111fffffff111111111111
+        111111111111fffffffffff111111111
+        111f1111111fffffffff11f111111111
+        111fff1111ffffffffff11f111111111
+        111ffff11fffffffffff111111111111
+        111ffffffffffffffff1111111111111
+        111fffffffffffffff11111111111111
+        111ffffffffffffff111111111111111
+        1111ffffffffffff1111111111111111
+        111111fffffff1ff1111111111111111
+        11111111ffff11ff1111111111111111
+        111111111ff111ff1111111111111111
+        1111111111ff111f1111111111111111
+        111111111111111f1111111111111111
+        .11111111111111ff11111111111111.
+        ..1111111111111111111111111111..
+        `)
+    animation.attachAnimation(Raptor, Correr)
 }
 let Correr: animation.Animation = null
+let Raptor: Sprite = null
 game.setDialogCursor(img`
     ..1111111111111111111111111111..
     .1111111111111fffffffffffff1111.
@@ -199,7 +235,7 @@ scene.setBackgroundImage(img`
     1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
     `)
 game.showLongText("Pulsa cualquier botón para saltar", DialogLayout.Top)
-let Raptor = sprites.create(img`
+Raptor = sprites.create(img`
     ..1111111111111111111111111111..
     .11111111111111ffffffffffff1111.
     11111111111111fffffffffffffff111
@@ -235,3 +271,5 @@ let Raptor = sprites.create(img`
     `, SpriteKind.Player)
 Raptor.setPosition(15, 95)
 info.setScore(0)
+Animaciones()
+animation.setAction(Raptor, ActionKind.Walking)

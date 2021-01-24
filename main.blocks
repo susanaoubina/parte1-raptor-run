@@ -185,7 +185,7 @@
 11111111111f11111111111111111111
 .1111111111ff111111111111111111.
 ..1111111111111111111111111111..
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image3"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="i8_iTa)l4lPOH@T~edN%"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="y;]yLw94o!f^:[3ZYizj"><value name="sprite"><block type="variables_get" id="%n*rS(~52n5.U;|Z;3|x"><field name="VAR" id="pjWt~a$_[TMV,JeA6u{U">Raptor</field></block></value><value name="x"><shadow type="positionPicker" id="NmKeJj~HIEZGJ${k@a$i"><field name="index">15</field></shadow></value><value name="y"><shadow type="positionPicker" id="6-sd+=orIv#AFbLkQ%k;"><field name="index">95</field></shadow></value><next><block type="hudsetScore" id="^CF`nEJFTQfLfzHZ)+3p"><value name="value"><shadow type="math_number" id="R7(h%axbLb?Xk=Fd]%C6"><field name="NUM">0</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="ER,)Z_q4kfM;pG8%b.,." x="50" y="490"><mutation name="Animaciones" functionid="`rw))Ia32j8Dn#j}xAb}"/><field name="function_name">Animaciones</field><statement name="STACK"><block type="variables_set" id="|ZwL#XU;!/0cMO]cl^ml"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="createAnimation" id="g2p+QqRy.u#vTDNgefR)"><value name="action"><shadow type="action_enum_shim" id="uME@2]^aEFj5nTBLnef5"><field name="MEMBER">Walking</field></shadow></value><value name="interval"><shadow type="math_number" id="u%A99x5xSkO{I;G|%]$)"><field name="NUM">100</field></shadow></value></block></value><next><block type="addAnimationFrame" id="s^FgU?s2+~VEx2a:R@Vo"><value name="frame"><shadow type="screen_image_picker" id="i,Q,(HQ`uc^1c-2z}$=,"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image3"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="i8_iTa)l4lPOH@T~edN%"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="y;]yLw94o!f^:[3ZYizj"><value name="sprite"><block type="variables_get" id="%n*rS(~52n5.U;|Z;3|x"><field name="VAR" id="pjWt~a$_[TMV,JeA6u{U">Raptor</field></block></value><value name="x"><shadow type="positionPicker" id="NmKeJj~HIEZGJ${k@a$i"><field name="index">15</field></shadow></value><value name="y"><shadow type="positionPicker" id="6-sd+=orIv#AFbLkQ%k;"><field name="index">95</field></shadow></value><next><block type="hudsetScore" id="^CF`nEJFTQfLfzHZ)+3p"><value name="value"><shadow type="math_number" id="R7(h%axbLb?Xk=Fd]%C6"><field name="NUM">0</field></shadow></value><next><block type="function_call" id="h;}{6UZHaTB,PKY9d;2T"><mutation name="Animaciones" functionid="`rw))Ia32j8Dn#j}xAb}"/><next><block type="setAction" id="3.TCjWliP(2QV`t5CEXB"><value name="action"><shadow type="action_enum_shim" id="f-snR^KGaq1W,%Yo+7-n"><field name="MEMBER">Walking</field></shadow></value><value name="sprite"><block type="variables_get" id="[5*/4rKfpe-rr`#-ku?J"><field name="VAR" id="pjWt~a$_[TMV,JeA6u{U">Raptor</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="ER,)Z_q4kfM;pG8%b.,." x="30" y="570"><mutation name="Animaciones" functionid="`rw))Ia32j8Dn#j}xAb}"/><field name="function_name">Animaciones</field><statement name="STACK"><block type="variables_set" id="|ZwL#XU;!/0cMO]cl^ml"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="createAnimation" id="g2p+QqRy.u#vTDNgefR)"><value name="action"><shadow type="action_enum_shim" id="uME@2]^aEFj5nTBLnef5"><field name="MEMBER">Walking</field></shadow></value><value name="interval"><shadow type="math_number" id="u%A99x5xSkO{I;G|%]$)"><field name="NUM">100</field></shadow></value></block></value><next><block type="addAnimationFrame" id="s^FgU?s2+~VEx2a:R@Vo"><value name="frame"><shadow type="screen_image_picker" id="i,Q,(HQ`uc^1c-2z}$=,"><field name="img">img`
 ..1111111111111111111111111111..
 .1111111111111ffffffffffff11111.
 1111111111111fffffffffffffff1111
@@ -218,4 +218,37 @@
 111111111f1111111111111111111111
 .11111111ff11111111111111111111.
 ..1111111111111111111111111111..
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image4"}}</data></shadow></value><value name="this"><block type="variables_get" id="J0^0_bsL8:9V.;4J=fWT"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field></block></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image4"}}</data></shadow></value><value name="this"><block type="variables_get" id="J0^0_bsL8:9V.;4J=fWT"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field></block></value><next><block type="addAnimationFrame" id="QN!JaFwj%^AQ}jgk2R,j"><value name="frame"><shadow type="screen_image_picker" id="rs!3P};SlATVXykqt3Dx"><field name="img">img`
+..1111111111111111111111111111..
+.1111111111111ffffffffffff11111.
+1111111111111fffffffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fff1fffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fffffffffffffff1111
+1111111111111fffffff111111111111
+1111111111111fffffff111111111111
+1111111111111fffffffffffff111111
+1111111111111fffffff111111111111
+1111111111111fffffff111111111111
+1111111111111fffffff111111111111
+1111111111111fffffff111111111111
+111111111111fffffffffff111111111
+111f1111111fffffffff11f111111111
+111fff1111ffffffffff11f111111111
+111ffff11fffffffffff111111111111
+111ffffffffffffffff1111111111111
+111fffffffffffffff11111111111111
+111ffffffffffffff111111111111111
+1111ffffffffffff1111111111111111
+111111fffffff1ff1111111111111111
+11111111ffff11ff1111111111111111
+111111111ff111ff1111111111111111
+1111111111ff111f1111111111111111
+111111111111111f1111111111111111
+.11111111111111ff11111111111111.
+..1111111111111111111111111111..
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image5"}}</data></shadow></value><value name="this"><block type="variables_get" id="Zx:_vCAUG*ftH~}av.IE"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field></block></value><next><block type="attachAnimation" id="DQRh~*7.F=lF^Or^t8RR"><value name="set"><block type="variables_get" id="k*~n(%F6XMmU0U78H}k9"><field name="VAR" id="PY1;^]RDL^a;`t:L@M:T">Correr</field></block></value><value name="sprite"><block type="variables_get" id="*Xywb$|,#3^lnv``5xcY"><field name="VAR" id="pjWt~a$_[TMV,JeA6u{U">Raptor</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
